@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button.good {
+    background-color: green;
+    color: white;
+  }
+  
+  button.neutral {
+    background-color: orange;
+    color: white;
+  }
+  
+
+  button.bad {
+    background-color: red;
+    color: white;
+  }
+  
+  button:hover,
+  button:focus {
+    transform: scale(1.05);
+  }
+  
+  button + button {
+    margin-left: 10px;
+  }
+  
+  .statistics {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .notification {
+    font-weight: bold;
+  }
+  
